@@ -4,7 +4,7 @@ module.exports = {
   },
   parser: "babel-eslint",
   extends: "airbnb",
-  plugins: ["react", "a11y", "import"],
+  plugins: ["react", "jsx-a11y", "import"],
   rules: {
     "react/jsx-filename-extension": [
       1,
@@ -13,6 +13,5 @@ module.exports = {
       }
     ],
     "react/prop-types": 0,
-    "jsx-a11y/rule-name": 2,
   }
 };

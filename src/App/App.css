@@ -1,0 +1,98 @@
+.app {
+  margin: auto;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:  "header header header"
+                        "body body body" 
+                        "footer footer footer";
+}
+
+.app__header {
+  grid-area: header;
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  background-color: #222;
+  padding: 10px;
+  color: #fff;
+  align-items: center;
+}
+
+.app__logo {
+  height: 60px;
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
+.app__logo:hover {
+  animation: app__logo--spin infinite 5s linear;
+}
+
+.searchbar input {
+  .app_logo:hover;
+}
+@keyframes app__logo--spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.searchbar input {
+  height: 40px;
+  width: 300px;
+  margin: 10px;
+}
+
+.app__content {
+  margin: auto;
+  max-width: 832px;
+  grid-area: body;
+
+}
+
+.app__footer {
+  min-height: 20px;
+  grid-area: footer;
+  display: flex;
+  justify-content: center;
+  background-color: #222;
+  padding: 20px;
+  color: #fff;
+}
+
+.album__detail {
+  max-width: 400px;
+  background: #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+  0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: auto;
+}
+
+.album__info {
+  background: #fff;
+  margin: 0;
+  text-align: center;
+  padding: 4px;
+  height: 100px;
+}
+
+.album__info__title,
+.album__info__artist {
+  font-weight: bold;
+}
+
+.album__list__group {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.album__list__item {
+  margin: 0 1px;
+}
+

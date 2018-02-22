@@ -11,7 +11,7 @@ const AlbumList = (props) => {
 
 
   return (
-    <ul className="list-group">
+    <ul className="album__list__group">
       {albumItems}
     </ul>
   );
