@@ -57,7 +57,7 @@ class App extends Component {
             </div>
           </div>
           <footer className="app__footer">
-            <h3>Eric Hosford</h3>
+            < div > Eric Hosford - https: //github.com/HosfordDotMe/iTunes-Artist-Project</div>
           </footer>
       </div>
     );
