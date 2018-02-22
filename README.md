@@ -1,6 +1,9 @@
 # Music Project
 For this project, you will be using React to show the albums of your favorite artist.
 
+## Url to project
+https://hosforddotme.github.io/iTunes-Artist-Project/
+
 ## What to do
 You will need to use the [iTunes JSON API](https://affiliate.itunes.apple.com/resources/documentation/itunes-store-web-service-search-api/) to grab the albums of an artist.
 
